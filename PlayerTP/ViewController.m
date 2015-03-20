@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "AudioMetric.h"
+#import "AudioPlayer.h"
 
 @interface ViewController ()
 
@@ -92,6 +93,16 @@
     
     self.duration.text = [NSString stringWithFormat:@"-%@",
                           [self.audioPlayer timeFormat:[self.audioPlayer getAudioDuration] - [self.audioPlayer getCurrentAudioTime]]];
+    
+    
+    [self.audioPlayer updateMeters];
+    float peakPowerLeft = [_audioPlayer peakPowerForChannel:0];
+    NSLog(@"peakLEFT : %f",peakPowerLeft+160.0);
+    
+    float peakPowerRight = [_audioPlayer peakPowerForChannel:1];
+    NSLog(@"peakRIGHT : %f",peakPowerRight+160.0);
+    [self.leftChan create:];
+    
 }
 
 /*
