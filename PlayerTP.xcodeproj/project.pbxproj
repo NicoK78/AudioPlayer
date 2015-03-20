@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D9242981AB9B68B00E60D6A /* audioMetric.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9242971AB9B68B00E60D6A /* audioMetric.m */; };
+		1D92429F1ABC785F00E60D6A /* audioMetric.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D92429E1ABC785F00E60D6A /* audioMetric.png */; };
 		9C1651471AB974C000404108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1651461AB974C000404108 /* main.m */; };
 		9C16514A1AB974C000404108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1651491AB974C000404108 /* AppDelegate.m */; };
 		9C16514D1AB974C000404108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C16514C1AB974C000404108 /* ViewController.m */; };
@@ -14,6 +16,11 @@
 		9C1651521AB974C000404108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1651511AB974C000404108 /* Images.xcassets */; };
 		9C1651551AB974C000404108 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1651531AB974C000404108 /* LaunchScreen.xib */; };
 		9C1651611AB974C100404108 /* PlayerTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1651601AB974C100404108 /* PlayerTPTests.m */; };
+		9C1651701AB9760A00404108 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C16516F1AB9760A00404108 /* AudioPlayer.m */; };
+		9C1651721AB9765700404108 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1651711AB9765700404108 /* AVFoundation.framework */; };
+		9C1651741AB97AA000404108 /* audioplayer_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1651731AB97AA000404108 /* audioplayer_play.png */; };
+		9C1651761AB97AB000404108 /* audioplayer_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1651751AB97AB000404108 /* audioplayer_pause.png */; };
+		9C1651781AB989A500404108 /* audiofile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C1651771AB989A500404108 /* audiofile.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D9242961AB9B68B00E60D6A /* audioMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioMetric.h; sourceTree = "<group>"; };
+		1D9242971AB9B68B00E60D6A /* audioMetric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audioMetric.m; sourceTree = "<group>"; };
+		1D92429E1ABC785F00E60D6A /* audioMetric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audioMetric.png; sourceTree = "<group>"; };
 		9C1651411AB974C000404108 /* PlayerTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayerTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1651451AB974C000404108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1651461AB974C000404108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,12 @@
 		9C16515A1AB974C100404108 /* PlayerTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C16515F1AB974C100404108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C1651601AB974C100404108 /* PlayerTPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerTPTests.m; sourceTree = "<group>"; };
+		9C16516E1AB9760A00404108 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		9C16516F1AB9760A00404108 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		9C1651711AB9765700404108 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9C1651731AB97AA000404108 /* audioplayer_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audioplayer_play.png; sourceTree = "<group>"; };
+		9C1651751AB97AB000404108 /* audioplayer_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audioplayer_pause.png; sourceTree = "<group>"; };
+		9C1651771AB989A500404108 /* audiofile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audiofile.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1651721AB9765700404108 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 		9C1651381AB974C000404108 = {
 			isa = PBXGroup;
 			children = (
+				9C1651711AB9765700404108 /* AVFoundation.framework */,
 				9C1651431AB974C000404108 /* PlayerTP */,
 				9C16515D1AB974C100404108 /* PlayerTPTests */,
 				9C1651421AB974C000404108 /* Products */,
@@ -81,6 +99,13 @@
 		9C1651431AB974C000404108 /* PlayerTP */ = {
 			isa = PBXGroup;
 			children = (
+				1D9242971AB9B68B00E60D6A /* audioMetric.m */,
+				1D9242961AB9B68B00E60D6A /* audioMetric.h */,
+				9C1651771AB989A500404108 /* audiofile.mp3 */,
+				1D92429E1ABC785F00E60D6A /* audioMetric.png */,
+				9C1651751AB97AB000404108 /* audioplayer_pause.png */,
+				9C1651731AB97AA000404108 /* audioplayer_play.png */,
+				9C16516C1AB9757600404108 /* AudioPlayer */,
 				9C1651481AB974C000404108 /* AppDelegate.h */,
 				9C1651491AB974C000404108 /* AppDelegate.m */,
 				9C16514B1AB974C000404108 /* ViewController.h */,
@@ -117,6 +142,15 @@
 				9C16515F1AB974C100404108 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C16516C1AB9757600404108 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9C16516E1AB9760A00404108 /* AudioPlayer.h */,
+				9C16516F1AB9760A00404108 /* AudioPlayer.m */,
+			);
+			name = AudioPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +234,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C1651501AB974C000404108 /* Main.storyboard in Resources */,
+				1D92429F1ABC785F00E60D6A /* audioMetric.png in Resources */,
 				9C1651551AB974C000404108 /* LaunchScreen.xib in Resources */,
 				9C1651521AB974C000404108 /* Images.xcassets in Resources */,
+				9C1651781AB989A500404108 /* audiofile.mp3 in Resources */,
+				9C1651761AB97AB000404108 /* audioplayer_pause.png in Resources */,
+				9C1651741AB97AA000404108 /* audioplayer_play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9242981AB9B68B00E60D6A /* audioMetric.m in Sources */,
 				9C16514D1AB974C000404108 /* ViewController.m in Sources */,
 				9C16514A1AB974C000404108 /* AppDelegate.m in Sources */,
 				9C1651471AB974C000404108 /* main.m in Sources */,
+				9C1651701AB9760A00404108 /* AudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +452,7 @@
 				9C1651661AB974C100404108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C1651671AB974C100404108 /* Build configuration list for PBXNativeTarget "PlayerTPTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +461,7 @@
 				9C1651691AB974C100404108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
