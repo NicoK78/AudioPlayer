@@ -65,6 +65,20 @@
                                                     selector:@selector(updateTime:)
                                                     userInfo:nil
                                                      repeats:YES];
+        
+        
+        /*
+         * Static metrics work fine but not when it's dynamic...
+         */
+//      [self.leftChan create:[_audioPlayer peakPowerForChannel:0];
+//      [self.rightChan create:[_audioPlayer peakPowerForChannel:1];
+        [self.leftChan create:120.0];
+        [self.rightChan create:80.0];
+        
+        
+        
+        
+        
         [self.audioPlayer playAudio];
         self.isPaused = TRUE;
         
@@ -93,16 +107,6 @@
     
     self.duration.text = [NSString stringWithFormat:@"-%@",
                           [self.audioPlayer timeFormat:[self.audioPlayer getAudioDuration] - [self.audioPlayer getCurrentAudioTime]]];
-    
-    
-    [self.audioPlayer updateMeters];
-    float peakPowerLeft = [_audioPlayer peakPowerForChannel:0];
-    NSLog(@"peakLEFT : %f",peakPowerLeft+160.0);
-    
-    float peakPowerRight = [_audioPlayer peakPowerForChannel:1];
-    NSLog(@"peakRIGHT : %f",peakPowerRight+160.0);
-    [self.leftChan create:];
-    
 }
 
 /*

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4509D1A1-AFD1-49C4-AFC7-9BFFD36EA007</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlayerTP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC9895AAC5C31A97CCE63320B81F3318D3D92FBC</key>
+		<string>https://github.com/NicoK78/AudioPlayer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlayerTP.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC9895AAC5C31A97CCE63320B81F3318D3D92FBC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NicoK78/AudioPlayer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC9895AAC5C31A97CCE63320B81F3318D3D92FBC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC9895AAC5C31A97CCE63320B81F3318D3D92FBC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AudioPlayer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
